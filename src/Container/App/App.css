@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Kreon');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kreon', serif;
+    line-height: 1.55;
+    font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,h2, h3, h4, h5, .navbar, .btn-primary, .nav-pills, .main-header__phone  {
+    font-family: 'Just Another Hand', cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.nav-link {
+  font-size: 40px;
+}
+
+.card-title {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 60px;
+  color: #ff8e75;
+  margin-bottom: 15px;
+}
+
+.justify-content-center {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-item {
+  padding-left: 10px;
+}
+
+.nav-item:hover {
+  color: #3f393b;
+}
+/*
+.header-image-container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+    background: #3f393b;
+    background: -moz-linear-gradient(left,  #3f393b 0%, #91D381 100%);
+    background: -webkit-linear-gradient(left,  #3f393b 0%,#91D381 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#3f393b), to(#91D381));
+    background: -webkit-linear-gradient(left, #3f393b 0%, #91D381 100%);
+    background: -o-linear-gradient(left, #3f393b 0%, #91D381 100%);
+    background: linear-gradient(to right,  #3f393b 0%,#91D381 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f393b', endColorstr='#91D381',GradientType=1 );
+  }
+  */
+
+  .about-wrapper::before {
+    content: "";
+    display: table;
+  }
+
+.react-parallax {
+  width: 100%;
+  padding: 50px 0 70px 0;
+}
+
+.react-parallax-background-children, .react-parallax-background {
+  width: 100%;
+  height: 100%;
+}
+
+.react-parallax-background img {
+  height: 100%;
+}
+
+.nav-link:hover {
+  background-color: #91D381;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .header-png {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  body {
+      line-height: 1.2;
+      font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h1,h2, h3, h4, h5, .navbar, .btn-primary, .nav-pills, .main-header__phone  {
+      font-weight: 400;
+      font-size: 24px;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    font-size: 24px;
+  }
+
+  .react-parallax {
+    width: 100%;
+    padding: 100px 0 70px 0;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .tab-content {
+    padding: 20px 0;
+  }
+
+  .card-comlumns {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-png {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  body {
+      line-height: 1;
+      font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h1,h2, h3, h4, h5, .navbar, .btn-primary, .nav-pills, .main-header__phone  {
+      font-weight: 400;
+      font-size: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    font-size: 24px;
+  }
+
+  .react-parallax {
+    width: 100%;
+    padding: 100px 0 70px 0;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .tab-content {
+    padding: 20px 0;
+  }
+
+  .card-comlumns {
+    padding: 0 20px;
+  }
+}
